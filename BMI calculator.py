@@ -1,0 +1,11 @@
+print("Hello")
+print("WELCOME TO BMI CALCULATOR ")
+name1 = input("Patients Name: ")
+name2 = input("Patients Age: ")
+name3 = input("Patients Weight kg: ")
+name4 = input("Patients Height mtr: ")
+name5 = float(name4)
+name6 = int(name3)
+BMI = name6/name5**2
+resultBMI = int(BMI)
+print(BMI)
